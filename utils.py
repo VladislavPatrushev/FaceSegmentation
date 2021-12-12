@@ -22,7 +22,7 @@ def set_seed(seed: int = 42) -> None:
 
 
 def set_device(cuda: bool) -> torch.device:
-    device = torch.device("cuda:1") if cuda else torch.device("cpu")
+    device = torch.device("cuda") if cuda else torch.device("cpu")
     return device
 
 
