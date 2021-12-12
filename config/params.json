@@ -1,0 +1,18 @@
+{
+  "image_path": "./fedr.jpg",
+  "model_path": "./weights/best-model-parameters_withoutact_diceloss_effcientnet-b0_moredata.pt",
+  "cuda": true,
+  "model_version": "v1",
+  "model_type": "unet",
+  "backbone": "efficientnet-b0",
+  "weights": "imagenet",
+  "classes": 19,
+  "lr": 3e-4,
+  "epochs": 5,
+  "batch_size": 64,
+  "path_to_images": "/data/vapatrushev/data/CelebAMask-HQ/CelebA-HQ-img/",
+  "path_to_masks": "/data/vapatrushev/data/masks/",
+  "image_resize": [224,224],
+  "mean": [0.485, 0.456, 0.406],
+  "std": [0.229, 0.224, 0.225]
+}
