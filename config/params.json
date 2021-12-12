@@ -1,5 +1,5 @@
 {
-  "image_path": "./fedr.jpg",
+  "image_path": "./input.jpg",
   "model_path": "./weights/best-model-parameters_withoutact_diceloss_effcientnet-b0_moredata.pt",
   "cuda": true,
   "model_version": "v1",
